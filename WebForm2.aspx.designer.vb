@@ -86,58 +86,58 @@ Partial Public Class WebForm2
     Protected WithEvents Table1 As Global.System.Web.UI.WebControls.Table
 
     '''<summary>
-    '''TextBox2 control.
+    '''mask control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox2 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents mask As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''TextBox3 control.
+    '''packagecode control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox3 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents packagecode As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''TextBox4 control.
+    '''leadcount control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox4 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents leadcount As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''TextBox5 control.
+    '''packagename control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox5 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents packagename As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''TextBox6 control.
+    '''numsite control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox6 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents numsite As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''TextBox7 control.
+    '''numtounchdown control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox7 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents numtounchdown As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Label6 control.
@@ -158,58 +158,58 @@ Partial Public Class WebForm2
     Protected WithEvents Table2 As Global.System.Web.UI.WebControls.Table
 
     '''<summary>
-    '''TextBox13 control.
+    '''asmlocate control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox13 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents asmlocate As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''FileUpload2 control.
+    '''packageoutline control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents FileUpload2 As Global.System.Web.UI.WebControls.FileUpload
+    Protected WithEvents packageoutline As Global.System.Web.UI.WebControls.FileUpload
 
     '''<summary>
-    '''FileUpload3 control.
+    '''leadfraemoutline control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents FileUpload3 As Global.System.Web.UI.WebControls.FileUpload
+    Protected WithEvents leadfraemoutline As Global.System.Web.UI.WebControls.FileUpload
 
     '''<summary>
-    '''FileUpload4 control.
+    '''toolmodel control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents FileUpload4 As Global.System.Web.UI.WebControls.FileUpload
+    Protected WithEvents toolmodel As Global.System.Web.UI.WebControls.FileUpload
 
     '''<summary>
-    '''FileUpload5 control.
+    '''strippic control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents FileUpload5 As Global.System.Web.UI.WebControls.FileUpload
+    Protected WithEvents strippic As Global.System.Web.UI.WebControls.FileUpload
 
     '''<summary>
-    '''FileUpload6 control.
+    '''magazine control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents FileUpload6 As Global.System.Web.UI.WebControls.FileUpload
+    Protected WithEvents magazine As Global.System.Web.UI.WebControls.FileUpload
 
     '''<summary>
     '''Label7 control.
@@ -230,58 +230,58 @@ Partial Public Class WebForm2
     Protected WithEvents Table3 As Global.System.Web.UI.WebControls.Table
 
     '''<summary>
-    '''TextBox8 control.
+    '''testerbrand control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox8 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents testerbrand As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''TextBox9 control.
+    '''testermodel control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox9 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents testermodel As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''TextBox10 control.
+    '''loadboard1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox10 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents loadboard1 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''TextBox11 control.
+    '''loadboard2 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox11 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents loadboard2 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''TextBox12 control.
+    '''contactnum1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox12 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents contactnum1 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''TextBox14 control.
+    '''contactnum2 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox14 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents contactnum2 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Label9 control.
@@ -302,58 +302,58 @@ Partial Public Class WebForm2
     Protected WithEvents Table4 As Global.System.Web.UI.WebControls.Table
 
     '''<summary>
-    '''TextBox15 control.
+    '''sp1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox15 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents sp1 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''TextBox16 control.
+    '''sp2 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox16 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents sp2 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''TextBox17 control.
+    '''sp3 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox17 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents sp3 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''TextBox18 control.
+    '''sp4 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox18 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents sp4 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''TextBox19 control.
+    '''sp5 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox19 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents sp5 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''TextBox20 control.
+    '''sp6 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox20 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents sp6 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Table5 control.
@@ -392,13 +392,13 @@ Partial Public Class WebForm2
     Protected WithEvents RadioButton2 As Global.System.Web.UI.WebControls.RadioButton
 
     '''<summary>
-    '''TextBox21 control.
+    '''rtdtext control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox21 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents rtdtext As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''RadioButton3 control.
@@ -428,13 +428,13 @@ Partial Public Class WebForm2
     Protected WithEvents Label19 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''FileUpload7 control.
+    '''productbond control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents FileUpload7 As Global.System.Web.UI.WebControls.FileUpload
+    Protected WithEvents productbond As Global.System.Web.UI.WebControls.FileUpload
 
     '''<summary>
     '''Label20 control.
@@ -446,13 +446,13 @@ Partial Public Class WebForm2
     Protected WithEvents Label20 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''FileUpload8 control.
+    '''tempprogram control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents FileUpload8 As Global.System.Web.UI.WebControls.FileUpload
+    Protected WithEvents tempprogram As Global.System.Web.UI.WebControls.FileUpload
 
     '''<summary>
     '''Table8 control.
@@ -473,13 +473,13 @@ Partial Public Class WebForm2
     Protected WithEvents Label21 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''TextBox22 control.
+    '''oprequest control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox22 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents oprequest As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Table9 control.
@@ -500,13 +500,13 @@ Partial Public Class WebForm2
     Protected WithEvents Label22 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''FileUpload9 control.
+    '''attachment control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents FileUpload9 As Global.System.Web.UI.WebControls.FileUpload
+    Protected WithEvents attachment As Global.System.Web.UI.WebControls.FileUpload
 
     '''<summary>
     '''Table10 control.
@@ -527,13 +527,13 @@ Partial Public Class WebForm2
     Protected WithEvents Label23 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''TextBox23 control.
+    '''comment1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox23 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents comment1 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Label24 control.
@@ -563,31 +563,31 @@ Partial Public Class WebForm2
     Protected WithEvents Table6 As Global.System.Web.UI.WebControls.Table
 
     '''<summary>
-    '''Label12 control.
+    '''urname control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Label12 As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents urname As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''TextBox24 control.
+    '''mpc1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox24 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents mpc1 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''TextBox25 control.
+    '''mpc2 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox25 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents mpc2 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Button4 control.
@@ -599,31 +599,31 @@ Partial Public Class WebForm2
     Protected WithEvents Button4 As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''FileUpload10 control.
+    '''samplemarkpic control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents FileUpload10 As Global.System.Web.UI.WebControls.FileUpload
+    Protected WithEvents samplemarkpic As Global.System.Web.UI.WebControls.FileUpload
 
     '''<summary>
-    '''FileUpload12 control.
+    '''addattach control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents FileUpload12 As Global.System.Web.UI.WebControls.FileUpload
+    Protected WithEvents addattach As Global.System.Web.UI.WebControls.FileUpload
 
     '''<summary>
-    '''TextArea1 control.
+    '''comment2 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextArea1 As Global.System.Web.UI.HtmlControls.HtmlTextArea
+    Protected WithEvents comment2 As Global.System.Web.UI.HtmlControls.HtmlTextArea
 
     '''<summary>
     '''Button1 control.

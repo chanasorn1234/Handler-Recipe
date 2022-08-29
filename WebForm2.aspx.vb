@@ -20,7 +20,7 @@ Public Class WebForm2
         name += Session("Name").ToString()
         Label2.Text = account + name
         Label4.Text = "Request Date : " + DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss")
-        Label12.Text = name
+        urname.Text = name
 
     End Sub
 
