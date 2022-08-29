@@ -5,6 +5,20 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <style>
+        .header-content{
+            background-color:#000080;
+            color:white;
+            font-weight:bold;
+        }
+        .footer-cell > *{
+            padding:8px;
+            border:solid 1px;
+            background-color:#c7ddb5;
+            color:black;
+            font-weight:bold
+        }
+    </style>
 </head>
 <body style="height: auto; margin:0;background-color:antiquewhite;margin-bottom:10px">
     <form method="GET" action="google.com" id="form1" runat="server">
@@ -31,8 +45,8 @@
             <br />
             <div style="overflow-x:auto">
             <asp:Table style="text-align: center;" Width="100%" BorderStyle="Solid" BorderWidth="1px" ID="Table1" runat="server" CellPadding="2" CellSpacing="0">
-                <asp:TableRow runat="server">
-                    <asp:TableCell style="border:solid 1px" runat="server">MASK</asp:TableCell>
+                <asp:TableRow CssClass="header-content" runat="server">
+                    <asp:TableCell style="border:solid 1px;border-radius:2px" runat="server">Mask</asp:TableCell>
                     <asp:TableCell style="border:solid 1px" runat="server">Package Code</asp:TableCell>
                     <asp:TableCell style="border:solid 1px" runat="server">Lead count</asp:TableCell>
                     <asp:TableCell style="border:solid 1px" runat="server">Package Name</asp:TableCell>
@@ -58,7 +72,7 @@
             <br />
             <div style="overflow-x:auto">
             <asp:Table style="text-align: center;" Width="100%" BorderStyle="Solid" BorderWidth="1px" ID="Table2" runat="server" CellPadding="2" CellSpacing="0">
-                <asp:TableRow runat="server">
+                <asp:TableRow CssClass="header-content" runat="server">
                     <asp:TableCell style="border:solid 1px" runat="server">Assembly loaction</asp:TableCell>
                     <asp:TableCell style="border:solid 1px" runat="server">Package Outline Drawing (PDF)</asp:TableCell>
                     <asp:TableCell style="border:solid 1px" runat="server">Leadfraem Outline Drawing  (PDF)</asp:TableCell>
@@ -84,7 +98,7 @@
             <br />
             <div style="overflow-x:auto">
              <asp:Table style="text-align: center; width:100%;" BorderStyle="Solid" BorderWidth="1px" ID="Table3" runat="server" CellPadding="2" CellSpacing="0">
-                <asp:TableRow runat="server">
+                <asp:TableRow  CssClass="header-content" runat="server">
                     <asp:TableCell style="border:solid 1px" runat="server">Tester Brand</asp:TableCell>
                     <asp:TableCell style="border:solid 1px" runat="server">Tester Model</asp:TableCell>
                     <asp:TableCell style="border:solid 1px" runat="server">Loadboard spec number (1)</asp:TableCell>
@@ -110,7 +124,7 @@
             <br />
             <div style="overflow-x:auto">
              <asp:Table style="text-align: center;" Width="100%" BorderStyle="Solid" BorderWidth="1px" ID="Table4" runat="server" CellPadding="2" CellSpacing="0">
-                <asp:TableRow runat="server">
+                <asp:TableRow  CssClass="header-content" runat="server">
                     <asp:TableCell style="border:solid 1px" runat="server">Setpoint 1</asp:TableCell>
                     <asp:TableCell style="border:solid 1px" runat="server">Setpoint 2</asp:TableCell>
                     <asp:TableCell style="border:solid 1px" runat="server">Setpoint 3</asp:TableCell>
@@ -192,32 +206,32 @@
          <br />
          <div style="padding-left:10px ;padding-right:10px">
               <asp:Table style="text-align: left;" Width="100%" BorderStyle="Solid" BorderWidth="1px" ID="Table6" runat="server" CellPadding="2" CellSpacing="0">
-                <asp:TableRow runat="server">
-                    <asp:TableCell style="border:solid 1px" runat="server">You are</asp:TableCell>
+                <asp:TableRow CssClass="footer-cell" runat="server">
+                    <asp:TableCell  runat="server">You are</asp:TableCell>
                     <asp:TableCell colspan="5" style="border:solid 1px" runat="server"><asp:Label style="color:black" ID="Label12" runat="server" Text="Label"></asp:Label></asp:TableCell>
                </asp:TableRow>
-               <asp:TableRow runat="server">
-                    <asp:TableCell style="border:solid 1px" runat="server">MASK-PKG CODE</asp:TableCell>
+               <asp:TableRow CssClass="footer-cell" runat="server">
+                    <asp:TableCell  runat="server">MASK-PKG CODE</asp:TableCell>
                     <asp:TableCell colspan="5" style="border:solid 1px" runat="server"><asp:TextBox ID="TextBox24" style="text-align: left; color:blue;width:100px" runat="server"></asp:TextBox>-<asp:TextBox ID="TextBox25" style="text-align: left; color:blue;width:50px" runat="server"></asp:TextBox><asp:Button style="margin-left:3px" ID="Button4" OnClientClick="return Viewmpc();" runat="server" Text="View MP Code" /></asp:TableCell>
                </asp:TableRow>
-                <asp:TableRow runat="server">
-                    <asp:TableCell style="border:solid 1px" runat="server">Sample Marking Picture</asp:TableCell>
+                <asp:TableRow CssClass="footer-cell" runat="server">
+                    <asp:TableCell  runat="server">Sample Marking Picture</asp:TableCell>
                     <asp:TableCell colspan="5" style="border:solid 1px" runat="server"><asp:FileUpload ID="FileUpload10" runat="server" /></asp:TableCell>
                </asp:TableRow>
-               <asp:TableRow runat="server">
-                    <asp:TableCell style="border:solid 1px" runat="server">Additional Attached File</asp:TableCell>
+               <asp:TableRow CssClass="footer-cell" runat="server">
+                    <asp:TableCell  runat="server">Additional Attached File</asp:TableCell>
                     <asp:TableCell colspan="5" style="border:solid 1px" runat="server"><asp:FileUpload ID="FileUpload12" runat="server" /></asp:TableCell>
                </asp:TableRow>
-                <asp:TableRow runat="server">
-                    <asp:TableCell style="border:solid 1px" runat="server">Require Date</asp:TableCell>
+                <asp:TableRow CssClass="footer-cell" runat="server">
+                    <asp:TableCell  runat="server">Require Date</asp:TableCell>
                     <asp:TableCell colspan="5" style="border:solid 1px" runat="server"><input type="date" id="requiredate" name="requiredate"/></asp:TableCell>
                </asp:TableRow>
-                <asp:TableRow runat="server">
-                    <asp:TableCell style="border:solid 1px" runat="server">Comment</asp:TableCell>
+                <asp:TableRow CssClass="footer-cell" runat="server">
+                    <asp:TableCell  runat="server">Comment</asp:TableCell>
                     <asp:TableCell colspan="5" style="border:solid 1px" runat="server"><textarea id="TextArea1" cols="40" rows="4" runat="server" /></asp:TableCell>
                </asp:TableRow>
-                <asp:TableRow runat="server">
-                    <asp:TableCell style="border:solid 1px" runat="server"></asp:TableCell>
+                <asp:TableRow CssClass="footer-cell" runat="server">
+                    <asp:TableCell  runat="server"></asp:TableCell>
                     <asp:TableCell colspan="5" style="border:solid 1px" runat="server"> <asp:Button ID="Button1" runat="server" OnClientClick="return Submit();" Text="Request" /><asp:Button ID="Button3" runat="server" OnClientClick="return Clear();" Text="Clear" /></asp:TableCell>
                </asp:TableRow>
               </asp:Table>
