@@ -55,12 +55,16 @@ from django.core.files.storage import FileSystemStorage
 #     return JsonResponse({'sharedrive_checksum':md5_returned,'db_checksum':records[0][2],'result':result},safe=False,json_dumps_params={'ensure_ascii':False})
 @csrf_exempt 
 def test_pushfiletodb(request):
-    print(request.FILES['mpc'])
-    myfile = request.FILES['mpc']
-    fs = FileSystemStorage(location=".//commit//")
-    filename = fs.save(myfile.name,myfile)
-    uploaded_file_url = fs.url(filename)
-    return HttpResponse("done")
+    # print(request.FILES['mpc'])
+    # myfile = request.FILES['mpc']
+    # fs = FileSystemStorage(location=".//commit//")
+    # filename = fs.save(myfile.name,myfile)
+    # uploaded_file_url = fs.url(filename)
+    try:
+        print(request.FILES["tempprogram"])
+    except KeyError as k:
+        print(k)
+    return render(request,"index.html")
 
 # def Getreview_request(request):
 #     mpc = request.GET['mpc']
