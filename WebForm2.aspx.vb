@@ -2,7 +2,6 @@
 Imports System.Text
 Imports System.IO
 Imports System.Net.Mail
-Imports System.Data
 Public Class WebForm2
     Inherits System.Web.UI.Page
 
@@ -21,7 +20,6 @@ Public Class WebForm2
         Label2.Text = account + name
         Label4.Text = "Request Date : " + DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss")
         urname.Text = name
-
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click

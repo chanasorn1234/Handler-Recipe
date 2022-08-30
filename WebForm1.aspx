@@ -11,7 +11,6 @@
             color: white;
             font-weight:bolder;
             font-size:large;
-
         }
         .auto-style2 {
             color: white;
@@ -88,7 +87,7 @@
         }
     </style>
 </head>
-<body style="height: 100%;width:100%;letter-spacing:0.02em; text-align: center; margin: 0px;padding:0;background-repeat:no-repeat;background-attachment:fixed;background-size:cover;background-position:top;background-image:url(https://lh3.googleusercontent.com/p/AF1QipNzOJFlvnn2CGgytqDED7y_QKgdHpdN777XdAUq=w1080-h608-p-k-no-v0) ">
+<body style="height: 100%;width:100%;letter-spacing:0.02em; text-align: center; margin: 0px;padding:0;background-repeat:no-repeat;background-attachment:fixed;background-size:cover;background-position:top;background-image:url('imagemicrochip/2017-09-13.jpg') ">
            <p style="box-shadow:0 2px 4px 0 rgba(0,0,0,.2);height: 30px;padding-left:5px ;padding-top:11px; text-align: left; background-color:#293556;margin-top: 0px">
                 <asp:Label style=" color:white;font-size:large;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif" ID="Label1" runat="server" Text="Request Approve Recipe Flie System"></asp:Label>
              </p>
